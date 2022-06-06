@@ -1,0 +1,14 @@
+
+button {
+  border-radius: 20px;
+}
+
+nz-card {
+  width:400px;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    border-radius: 20px;
+}

@@ -1,0 +1,44 @@
+
+<div style="display:flex; flex-direction:row; justify-content: center; flex-wrap: wrap;">
+  <div style="margin: 30px;">
+    <nz-card
+      nzTitle="Café simples" [nzCover]="coverTemplate">
+      <button id="botao1"
+      value="cafe_simples" style="height: 80px; width: 160px;" nzType="primary" nz-button>fazer</button>
+    </nz-card>
+    <ng-template #coverTemplate>
+      <img style="padding: 40px; height: 250px; width: 250px;" alt="example" 
+      src="https://imagensemoldes.com.br/wp-content/uploads/2020/09/Imagem-Coffe-PNG.png"/>
+    </ng-template>
+  </div> 
+  <div style="margin: 30px;">
+    <nz-card nzTitle="Cappuccino" [nzCover]="coverTemplate1">
+      <button id="botao2"
+      value="cappuccino" style="height: 80px; width: 160px;" nzType="primary" nz-button>fazer</button>
+    </nz-card>
+    <ng-template #coverTemplate1>
+      <img style="padding: 40px; height: 250px; width: 250px;" alt="example" 
+      src="https://i.pinimg.com/originals/fb/2c/53/fb2c53552965bc81f112092e59eb6f7f.png"/>
+    </ng-template>
+  </div> 
+  <div style="margin: 30px;">
+    <nz-card nzTitle="Espresso" [nzCover]="coverTemplate2" [nzBordered]="true">
+      <button id="botao3"
+      value="esspresso" style="height: 80px; width: 160px;" nzType="primary" nz-button>fazer</button>
+    </nz-card>
+    <ng-template #coverTemplate2>
+      <img style="padding: 40px; height: 250px; width: 250px;" alt="example" 
+      src="https://www.pngall.com/wp-content/uploads/4/Cafe-Espresso.png"/>
+    </ng-template>
+  </div> 
+  <div style="margin: 30px;">
+    <nz-card nzTitle="Espresso Duplo" [nzCover]="coverTemplate2">
+      <button id="botao4"
+      value="espresso_duplo" style="height: 80px; width: 160px;" nzType="primary" nz-button>fazer</button>
+    </nz-card>
+    <ng-template #coverTemplate2>
+      <img style="padding: 40px; height: 250px; width: 250px;" alt="example" 
+      src="https://www.pngall.com/wp-content/uploads/4/Cafe-Espresso.png"/>
+    </ng-template>
+  </div> 
+</div>  
